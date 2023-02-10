@@ -1,0 +1,387 @@
+@charset "UTF-8";
+body{
+    width: 100%;
+    font-family: fot-tsukubrdgothic-std, sans-serif;
+    font-weight: 400;
+}
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+}
+header{
+    width:95%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    font-family: ta-kai-regular, sans-serif;
+}
+.nav{
+    display: flex;
+}
+.nav li{
+    font-size: 16px;
+    list-style: none;
+    margin-left: 20px;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+}
+.mainvisual{
+    width: 100%;
+    height: 80vh;
+}
+.mainvisual img{
+    width: 100%;    
+    height: 80vh;
+    object-fit: cover;
+}
+h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.commitment
+{
+width: 100%;
+height: 55vh;
+display: flex;
+align-items: center;
+margin-top: 60px;
+}
+.commitment img{
+    width:100%;
+    height: 50vh;
+    object-fit:contain;
+}
+.inner{
+    writing-mode: vertical-rl;
+    margin-left: 15%;
+}
+.commit-text{
+width: 100%;
+}
+.commit-text h2{
+    font-size: 36px;
+    margin-left: 20px;
+}
+.commit-text p{
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.2em;
+    margin-top: 45px;
+}
+
+.news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.news-text{
+    width: 50%;
+}
+.news-text a{
+    font-size: 18px;
+    color:black;
+    text-decoration: none;
+}
+.news dl{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px dotted;
+}
+.news dt{
+    font-size: 18px;
+    margin-right: 25px;
+}
+.news dt span{
+    font-size: 14px;
+    margin-left: 5px;
+}
+.news-img{
+    width: 45%;
+    text-align: right;
+}
+.news-img img{
+    width: 80%;
+    text-align: right;
+}
+
+.recommendation{
+    margin-top: 60px;
+}
+.recommendation ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.recommendation li{
+    width: 32%;
+    list-style: none;
+}
+.pan-img{
+    width: 100%
+}
+h3{
+    font-size: 22px;
+}
+h3 span{
+    font-size: 14px;
+}
+.li{
+    text-align: left;
+}
+.li p{
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 5px;
+}
+.button{
+    text-align: center;
+}
+.recommendation a{
+    color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 15px 8%;
+    text-decoration: none;
+}
+
+.access{
+    margin-top: 60px;
+}
+.access-box{
+    display: flex;
+    align-items: center;
+}
+iframe{
+    border-radius: 10px;
+}
+
+.access-text{
+    width: 50%;
+    text-align: center;
+}
+h4{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+h4 span{
+    font-size: 24px;
+    margin-left: 10px;
+}
+.access dl{
+    width: 100%;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+}
+.access dt{
+    font-size: 18px;
+}
+.dl2{
+    margin-top: 20px;
+}
+footer{
+    color: white;
+    width: 100%;
+    margin: 60px auto 0px auto;
+    background-color:#253e4b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 2.5%;
+}
+footer h1{
+    margin-right: 20px;
+    letter-spacing: 0.1em;
+}
+.nav-li2 a{
+    color: white;
+}
+.footer-box{
+    display: flex;
+    align-items: flex-end;
+}
+.icon img{
+    width: 25px;
+    margin-left: 10px;
+}
+@media(max-width: 800px){
+    .wrapper{
+        width: 90%;
+        margin: 0 auto;
+    }
+    header{
+        width:90%;
+        margin: 30px auto;
+        display: block;
+        text-align: center;
+    }
+    h1{
+        font-size: 36px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .nav li{
+        margin-left: 0px;
+    }
+    .mainvisual {
+        width: 100%;    
+        height:50vh;
+    }
+    .mainvisual img{
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+    h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .commitment{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    }
+    .commit-text h2{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .commit-text p{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .commitment-img{
+        width: 100%;
+        height: 40vh;
+        margin-top: 40px;
+        order: 2;
+    }
+    .commitment img{
+        width:100%;
+        height: 40vh;
+        border-radius: 10px;
+        object-fit:cover;
+        order: 2;
+        
+    }
+    .inner{
+        margin:0 auto;
+    }
+    .news{
+        display: block;
+    }
+    .news dt{
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    .news dt span{
+        font-size: 12px;
+    }
+    .news-text{
+        width: 100%;
+    }
+    .news-text a{
+        font-size: 16px;
+        color:black;
+        text-decoration: none;
+    }
+    
+    .news-img{
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+        margin-top: 30px;
+    }
+    .news-img img{
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .recommendation ul{
+        display: block;
+    }
+    .recommendation li{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .pan-img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    h3{
+        line-height: 25px;
+        margin-top: 8px;
+    }
+    
+    .li p {
+        line-height: 1.6;
+    }
+   
+    .recommendation a{
+        color: black;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 15px 10%;
+        text-decoration: none;
+    }
+    .access{
+        margin-top: 60px;
+    }
+    .access-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    iframe{
+        width: 100%;
+        height: 30vh;
+        border-radius: 10px;
+   
+    }
+    .access-text{
+        width: 100%;
+        text-align: left;
+        margin-top: 30px;
+    }
+    h4{
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    h4 span{
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .access dl{
+        width: 100%;
+        height: 28px;
+        display: flex;
+        justify-content: left;
+    }
+    .access dt{
+        font-size: 16px;
+    }
+    .dl2{
+        margin-top: 20px;
+    }
+    footer{
+        padding: 40px 5%;
+    }
+
+    footer .nav{
+        display: none;
+    }
+}
